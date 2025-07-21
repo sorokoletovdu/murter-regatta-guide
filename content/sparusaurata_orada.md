@@ -1,6 +1,6 @@
 # Sparus aurata (Орада / orada)
 
-<img src="img/sparus_aurata.jpg" alt="Орада" width="200">
+![Орада](../images/sparus_aurata.jpg)
 
 **Популярность:** 1-е место по упоминаниям в местных соцсетях и форумах.
 
