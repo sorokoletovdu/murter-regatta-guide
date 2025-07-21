@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Cards Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- zero-md Web Component -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?module"></script>
+
+  <!-- Google Fonts (Montserrat & Roboto) -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:400,500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f6f9fb;
+      font-family: 'Roboto', Arial, sans-serif;
+      color: #233142;
+    }
+    h1, h2 {
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    .card {
+      margin-bottom: 2rem;
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 2px 18px rgba(44, 62, 80, 0.08);
+      background: #fff;
+    }
+    .card-body {
+      padding: 1.25rem 1.5rem 1.5rem 1.5rem;
+    }
+    .group-title {
+      border-left: 5px solid #455d7a;
+      padding-left: 0.6rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1.6rem;
+      color: #233142;
+      font-size: 1.7rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    @media (max-width: 767.98px) {
+      .group-title {
+        font-size: 1.2rem;
+      }
+    }
+    /* Print optimization */
+    @media print {
+      body { background: #fff !important; color: #000; }
+      .container { width: 100% !important; }
+      .card { page-break-inside: avoid !important; break-inside: avoid; box-shadow: none !important; }
+      .row { display: flex; flex-wrap: wrap; }
+      .col-md-6 { flex: 0 0 50%; max-width: 50%; }
+      h1, .group-title { color: #000 !important; }
+      a { color: #000 !important; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <h1 class="text-center mb-4" style="letter-spacing:0.04em;">Modern Cards Gallery</h1>
+
+    <!-- Group 1 -->
+    <div class="group-title">Group 1: Science</div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group1-card1.md">
+              <template>
+                <style>
+                  img { max-width: 100%; border-radius: 0.4rem; margin: .5rem 0; }
+                </style>
+              </template>
+            </zero-md>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group1-card2.md"></zero-md>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 2 -->
+    <div class="group-title">Group 2: Art</div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group2-card1.md"></zero-md>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group2-card2.md"></zero-md>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Group 3 -->
+    <div class="group-title">Group 3: Technology</div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group3-card1.md"></zero-md>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <zero-md src="content/group3-card2.md"></zero-md>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
