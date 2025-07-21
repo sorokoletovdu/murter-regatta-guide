@@ -1,5 +1,7 @@
 # Dicentrarchus labrax (Брадин / brancin)
 
+![Брадин](../images/dicentrarchus_labrax.jpg)
+
 **Популярность:** 2-е место по упоминаниям в местных соцсетях и форумах.
 
 **Сезон и активность:**
@@ -37,6 +39,4 @@
      2. В форме смешать вино, масло, нарезанный шалот и зелень.
      3. Полить рыбу, запекать 20–25 минут при 190 °C.
 
-**Ссылка на фото:**
-- https://upload.wikimedia.org/wikipedia/commons/6/69/Sea_bass_Dicentrarchus_labrax.jpg
 
