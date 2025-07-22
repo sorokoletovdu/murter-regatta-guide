@@ -1,4 +1,8 @@
-# Dendrochirus zebra (Морска игла / morska_igla)
+# Dendrochirus zebra (Riba-pauk / ribica kukac)
+
+![Riba-pauk](../images/dendrochirus_zebra.jpg)
+
+Редкий вид, родственник рыбы-лео. Имеет ядовитые шипы, укус болезнен.
 
 **Уровень опасности для человека:**
 - Средний: ядовитые шипы вызывают боль и воспаление.
@@ -12,7 +16,4 @@
 - **Что делать при контакте:**
   1. Удалить шипы пинцетом.
   2. Опустить рану в горячую воду (40–45 °C) на 30 мин.
-
-**Ссылка на фото:**
-- https://upload.wikimedia.org/wikipedia/commons/a/a1/Dendrochirus_zebra.jpg
 
